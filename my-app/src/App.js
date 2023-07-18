@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import img1 from 'images/a.png';
+
 
 
 const Header = styled.header`
@@ -69,9 +69,10 @@ const HomePage = () => {
         <HeaderName>Stedify</HeaderName>
         <Navigation>
           <NavButton>Home</NavButton>
-          <NavButton>About Me</NavButton>
-          <NavButton>Projects</NavButton>
-          <NavButton>Experience</NavButton>
+          <NavButton>About Us</NavButton>
+          <NavButton>Topics</NavButton>
+          <NavButton>Resources</NavButton>
+          <NavButton>Contact Us</NavButton>
         </Navigation>
       </Header>
 
