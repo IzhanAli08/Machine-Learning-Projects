@@ -53,11 +53,11 @@ const Image = styled.img`
 
 const Title = styled.h2`
   font-size: 1.5em;
-  color: #333;
+  color: #334;
 `;
 
 const Description = styled.p`
-  color: #666;
+  color: #665;
 `;
 
 class Homepage extends React.Component {
