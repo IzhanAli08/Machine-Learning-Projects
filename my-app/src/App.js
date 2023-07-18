@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import i from './images/a.png';
+
 
 
 const Header = styled.header`
@@ -50,7 +50,7 @@ const ProjectImage = styled.img`
 `;
 
 const ProjectDescription = styled.p`
-  padding: 10px;
+  padding: 15px;
 `;
 
 const Footer = styled.footer`
