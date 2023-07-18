@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import img1 from 'images/a.png';
+
 
 const Header = styled.header`
   display: flex;
@@ -64,7 +66,7 @@ const HomePage = () => {
   return (
     <div>
       <Header>
-        <HeaderName>Your Name</HeaderName>
+        <HeaderName>Stedify</HeaderName>
         <Navigation>
           <NavButton>Home</NavButton>
           <NavButton>About Me</NavButton>
