@@ -6,8 +6,8 @@ import styled from 'styled-components';
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  background-color: #282c34;
+  padding: 15px;
+  background-color: #000000;
   color: white;
 `;
 
@@ -22,7 +22,7 @@ const Navigation = styled.nav`
 const NavButton = styled.button`
   margin-right: 20px;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   background: none;
   border: none;
   cursor: pointer;
