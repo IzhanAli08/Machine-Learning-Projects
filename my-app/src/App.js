@@ -1,14 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import i from './images/a.png';
 
 
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
   padding: 15px;
-  background-color: #000000;
-  color: white;
+  background-color: #ffffff;
+  color: black;
 `;
 
 const HeaderName = styled.h1`
@@ -21,7 +21,7 @@ const Navigation = styled.nav`
 
 const NavButton = styled.button`
   margin-right: 20px;
-  color: white;
+  color: black;
   text-decoration: underline;
   background: none;
   border: none;
@@ -81,20 +81,20 @@ const HomePage = () => {
       <ProjectPreview>
         <ProjectCard>
           <ProjectImage src="https://source.unsplash.com/random?coding" alt="Project 1"/>
-          <ProjectDescription>Project 1: A short description of the project goes here.</ProjectDescription>
+          <ProjectDescription>Service 1</ProjectDescription>
         </ProjectCard>
         <ProjectCard>
           <ProjectImage src="https://source.unsplash.com/random?coding" alt="Project 2"/>
-          <ProjectDescription>Project 2: A short description of the project goes here.</ProjectDescription>
+          <ProjectDescription>Service 2</ProjectDescription>
         </ProjectCard>
         <ProjectCard>
           <ProjectImage src="https://source.unsplash.com/random?coding" alt="Project 3"/>
-          <ProjectDescription>Project 3: A short description of the project goes here.</ProjectDescription>
+          <ProjectDescription>Service 3</ProjectDescription>
         </ProjectCard>
       </ProjectPreview>
 
       <Footer>
-        Â© {new Date().getFullYear()} Your Name. All rights reserved.
+        Â© {new Date().getFullYear()} Stedify. All rights reserved.
       </Footer>
     </div>
   );
