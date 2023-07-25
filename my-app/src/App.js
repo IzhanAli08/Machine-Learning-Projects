@@ -17,7 +17,7 @@ const MainContent = styled.main`
   flex-grow: 1;
   overflow: auto;
   min-height: 0;
-  width: 100%;
+  width: 90%;
 `;
 
 const App = () => {
