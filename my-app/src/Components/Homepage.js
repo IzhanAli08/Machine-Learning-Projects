@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ihp from '../images/IHP.PNG';
-import overlord from '../images/overlord.PNG';
-import h2w from '../images/h2w.PNG';
+
 
 const Container = styled.div`
   display: flex;
@@ -55,49 +53,22 @@ const Image = styled.img`
 
 const Title = styled.h2`
   font-size: 1.5em;
-  color: #333;
+  color: #334;
 `;
 
 const Description = styled.p`
-  color: #666;
+  color: #665;
 `;
 
 class Homepage extends React.Component {
   state = {
-    projects: [
-      {
-        title: 'Project 1',
-        imageUrl: ihp,
-        description: 'Description 1',
-      },
-      {
-        title: 'Project 2',
-        imageUrl: overlord,
-        description: 'Description 2',
-      },
-      {
-        title: 'Project 3',
-        imageUrl: h2w,
-        description: 'Description 3',
-      },
-    ],
+    
   };
 
   render() {
     return (
       <Container>
-        <h1>View my Projects</h1>
-        <ProjectContainer>
-          {this.state.projects.map((project, index) => (
-            <ProjectCard key={index}>
-              <ImageContainer>
-                <Image src={project.imageUrl} alt={project.title} />
-              </ImageContainer>
-              <Title>{project.title}</Title>
-              <Description>{project.description}</Description>
-            </ProjectCard>
-          ))}
-        </ProjectContainer>
+        
       </Container>
     );
   }
